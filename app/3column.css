@@ -1,0 +1,112 @@
+.sedans {
+    width: 19em;
+    height: 30em;
+background-color: hsl(31, 77%, 52%);
+border-radius: 2% 0 0 2%;
+}
+
+.suv {
+    width: 19em;
+    height: 30em;
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    width: 19em;
+    height: 30em;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0;
+}
+
+body {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   min-height: 100%;
+   width: 100%;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border-style: hidden none none;
+    padding: .9em 2em .9em 2em;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 5em 0 0 0;
+}
+
+button:hover {
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.b-sed {
+    color: hsl(31, 77%, 52%);
+    border: solid .2em hsla(0, 0%, 100%, 0.75);
+    border-radius: 2em;
+    margin-left: 2.5em;
+}
+
+.b-sed:active {
+    cursor: pointer;
+    background-color:  hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+}
+h2 {
+ padding-left: 1.5em;
+ font-family: 'Big Shoulders Display', cursive;
+ text-transform: uppercase;
+ color: hsl(0, 0%, 95%);
+ font-size: 2.3em;
+}
+
+.b-suv {
+   color: hsl(184, 100%, 22%);
+    border: solid .2em hsla(0, 0%, 100%, 0.75);
+    border-radius: 2em;
+    margin-left: 2.5em;
+}
+
+.b-suv:active {
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75)
+}
+
+.b-lux {
+    color: hsl(179, 100%, 13%);
+    border: solid .2em hsla(0, 0%, 100%, 0.75);
+    border-radius: 2em;
+    margin: 6em 0 0 0;
+}
+
+.b-lux:active {
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+img {
+    padding-left: 2.5em;
+    margin: 1.3em auto .3em;
+}
+
+p {
+    padding-left: 2.8em;
+    width: 11em;
+    color: hsla(0, 0%, 100%, 0.75);
+font-family: 'Lexend Deca', sans-serif;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl (228, 45%, 44%)
+}
