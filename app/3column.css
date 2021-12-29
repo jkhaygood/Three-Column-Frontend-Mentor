@@ -51,10 +51,9 @@ a:active {
 .card {
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    flex-wrap: wrap;
 }
 
 .sedans {
@@ -145,5 +144,19 @@ footer {
     margin: 0;
     width: 0;
     position: static;
+ }
 
+ @media (min-width: 950px) {
+     .card {
+         flex-direction: row;
+     }
+ }
+
+ @media (max-width: 950px) {
+     .sedans {
+         border-radius: 2% 2% 0 0;
+     }
+     .luxury {
+         border-radius: 0 0 2% 2%;
+     }
  }
