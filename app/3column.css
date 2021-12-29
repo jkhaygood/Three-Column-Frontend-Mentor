@@ -104,7 +104,7 @@ h2 {
 
 .b-lux {
     color: var(--very-dark-cyan);
-    
+
 }
 
 .b-lux:active {
@@ -128,15 +128,22 @@ font-family: 'Lexend Deca', sans-serif;
 }
 
 footer {
-    display: none;
     align-items: flex-end;
     width: 100%;
 }
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
-}
 
-.attribution a {
-    color: hsl (228, 45%, 44%)
 }
+.attribution a {
+    color: hsl (228, 45%, 44%);
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    width: 0;
+    position: static;
+
+ }
